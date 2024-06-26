@@ -1,0 +1,60 @@
+.p1 {
+  font-size: 20px;
+}
+
+.p2 {
+  font-size: 15px;
+}
+
+.bar {
+  font-weight: 100;
+  color: rgb(220, 220, 220);
+}
+
+@media (max-width: 1200px) {
+  .hide-on-small-screen {
+    display: none;
+    margin: 0px; 
+  }
+}
+
+.logo2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1200px) {
+  .logo2 {
+    max-width: 80%; 
+    margin: 0px; 
+  }
+}
+
+.logo-container {
+  display: flex;
+  position: relative;
+  margin-top: 0; 
+  margin-bottom: -60px; 
+  align-items: start; 
+}
+
+@media (max-width: 1200px) {
+  .logo-container {
+    display: flex; 
+  }
+}
+
+.navi {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .navi {
+    display: block;
+  }
+}
+

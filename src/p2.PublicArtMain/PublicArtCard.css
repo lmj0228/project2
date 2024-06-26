@@ -1,0 +1,15 @@
+.public-art-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.public-art-image {
+  width: 350px; 
+  height: 350px; 
+  aspect-ratio: 1;
+}
+

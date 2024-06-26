@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 30px;
+  border: 2px dashed #a2dbfa;
+  border-radius: 8px;
+  position: relative;
+  /* 부모 요소를 기준으로 위치 설정 */
+}
+
+@media (max-width: 1800px) {
+  .container {
+    margin-left: 50px;
+    /* 작은 화면에서는 여백 감소 */
+  }
+}
+
+.linkBtn {
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: #004098;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.title1 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1800px) {
+  .title1 {
+    margin-left: 50px;
+    /* 작은 화면에서는 여백 감소 */
+  }
+}
+
+p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.square {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.workFlow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+}

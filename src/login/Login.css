@@ -1,0 +1,55 @@
+.Login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  width: 120px;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.form-group input {
+  margin-right: 1em;
+  text-align: center;
+}
+
+button[type="submit"] {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  align-self: center; /* 버튼 가운데 정렬 */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: black;
+  font-size: 0.8em;
+  margin-left: 120px; /* 오류 메시지도 레이블 위치에 맞게 이동 */
+}
+

@@ -1,0 +1,59 @@
+.content {
+  width: 1120px ;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table td {
+  font-size: 14px;
+}
+
+table td a {
+  color: #333;
+  text-decoration: none;
+}
+
+table td a:hover {
+  text-decoration: underline;
+}
+
+.th1 {
+  width: 70px;
+}
+
+.th2 {
+  width: 700px;
+}
+
+.th3 {
+  width: 100px;
+}
+
+.th4 {
+  width: 150px;
+}
+
+.th5 {
+  width: 100px;
+}
+
